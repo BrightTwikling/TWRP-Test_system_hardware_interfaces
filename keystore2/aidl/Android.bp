@@ -19,6 +19,7 @@ package {
 aidl_interface {
     name: "android.system.keystore2",
     vendor_available: true,
+    recovery_available: true,
     srcs: ["android/system/keystore2/*.aidl"],
     defaults: ["android.hardware.security.keymint-latest-defaults"],
     stability: "vintf",
